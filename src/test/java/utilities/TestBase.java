@@ -19,7 +19,7 @@ public class TestBase {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
-    }
+    }// dıger projelerı artık yukleye bılırsınız bır oncekını uzun bır zamanda yapalım
      @After
     public void teardown(){
 

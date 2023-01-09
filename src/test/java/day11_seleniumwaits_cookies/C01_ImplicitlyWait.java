@@ -13,6 +13,6 @@ public class C01_ImplicitlyWait {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         // Selenium 4'e kadar 15 saniyeyi belirtmek icin
         // Timeouts class'indan 15  saniye tanimliyorduk
-        // Selenium4 ile birlikte zaman belirleme class'i Duration oldu
+        // Selenium4 ile birlikte zaman belirleme class'i Duration oldu.
     }
 }
